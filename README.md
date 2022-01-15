@@ -34,7 +34,7 @@ Application that allows baker entrepreneur Pierre owner to keep track of treats 
 4. _In your preferred git terminal navigate to the directory you would like to store the project_
 5. _Enter: "git clone" followed by the copied https link_
 6. _Now that the repository is cloned to your computer, right click on the folder and click open with vs code_
-7. _Once in the project, navigate to the `Treat` directory within the terminal_
+7. _Once in the project, navigate to the `Food` directory within the terminal_
 8. _Add the following packages in terminal:_
    - `dotnet add package Microsoft.EntityFrameworkCore -v 5.0.0`
    - `dotnet add package Pomelo.EntityFrameworkCore.MySql -v 5.0.0-alpha.2`
@@ -43,7 +43,7 @@ Application that allows baker entrepreneur Pierre owner to keep track of treats 
    - `dotnet tool install --global dotnet-ef --version 3.0.0`
 
 ### **Database Setup & Running the Application:**
-1. _In terminal, navigate to the `Treat` directory_
+1. _In terminal, navigate to the `Food` directory_
 2. _Type `dotnet restore` to install dependencies_
 3. _Type `dotnet build` to build project_
 4. _In order to initalize a database you will need to create an appsettings.json file that looks like this*_
@@ -56,7 +56,7 @@ Application that allows baker entrepreneur Pierre owner to keep track of treats 
 ```
    _*NOTE: change {YOUR X} with corresponding information_
 
-5. _Once you have the appsettings.json file— to create a database type: `dotnet ef add initial`_
+5. _Once you have the appsettings.json file— to create a database, type: `dotnet ef migrations add initial`_
 6. _To update the database in MySQL type: `dotnet ef database update`_
 7. _Initialize localhost:3306 in MySQL Workbench (download [here](https://dev.mysql.com/downloads/workbench/))_
 8. _At this point you will now be able to view the project by typing `dotnet run` in the terminal_
