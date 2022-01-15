@@ -44,8 +44,9 @@ Application that allows baker entrepreneur Pierre owner to keep track of treats 
 
 ### **Database Setup & Running the Application:**
 1. _In terminal, navigate to the `Treat` directory_
-2. _Type dotnet restore to install dependencies_
-3. _In order to initalize a database you will need to create an appsettings.json file that looks like this*_
+2. _Type `dotnet restore` to install dependencies_
+3. _Type `dotnet build` to build project_
+4. _In order to initalize a database you will need to create an appsettings.json file that looks like this*_
 ```
 {
   "ConnectionStrings": {
@@ -55,10 +56,10 @@ Application that allows baker entrepreneur Pierre owner to keep track of treats 
 ```
    _*NOTE: change {YOUR X} with corresponding information_
 
-3. _Once you have the appsettings.json file— to create a database type: `dotnet ef add initial`_
-4. _To update the database in MySQL type: `dotnet ef database update`_
-5. _Initialize localhost:3306 in MySQL Workbench (download [here](https://dev.mysql.com/downloads/workbench/))_
-5. _At this point you will now be able to view the project by typing `dotnet run` in the terminal_
+5. _Once you have the appsettings.json file— to create a database type: `dotnet ef add initial`_
+6. _To update the database in MySQL type: `dotnet ef database update`_
+7. _Initialize localhost:3306 in MySQL Workbench (download [here](https://dev.mysql.com/downloads/workbench/))_
+8. _At this point you will now be able to view the project by typing `dotnet run` in the terminal_
 
 ## Known Bugs
 
