@@ -1,11 +1,23 @@
 #homeHero {
-  background-color: rgb(199, 199, 199);
   background-image: url('https://images.unsplash.com/photo-1517936401693-1dbb51e467c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=4140&q=80');
   background-repeat: no-repeat;
   background-size: 100vw;
   background-position: center;
-  text-align: center;
-  height: 45vh;
-  height: max-content;
+  height: 50vh;
 }
 
+#homeHeroText {
+  width: 65vw;
+  color: white;
+  margin: auto;
+}
+
+#aboutSection {
+  height: 350px;
+  max-width: 600px;
+  text-align: center;
+}
+
+h2 {
+  padding: 15px;
+}
