@@ -22,7 +22,6 @@
 
 ## Description
 
-<img src="Treat/wwwroot/img/TBD.png" height="275px">
 Application that allows baker entrepreneur Pierre owner to keep track of treats and flavors in his bakery. Practice with many to many relationships and authentication with identity. Add, delete, edit, and otherwise control both treats and flavors, and which are connected to which.
 
 ## Setup/Installation Requirements

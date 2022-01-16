@@ -7,8 +7,12 @@
     <link rel="stylesheet" href="~/css/styles.css">
   </head>
   <body>
+    <div class="d-flex flex-column" id="flexBody">
     @await Html.PartialAsync("Navigation")
+    <div class="container" id="mainContainer">
     @RenderBody()
+    </div>
     @await Html.PartialAsync("Footer")
+    </div>
   </body>
 </html>
